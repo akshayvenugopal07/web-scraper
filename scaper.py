@@ -30,7 +30,7 @@ with open('word-count.csv', 'w', newline='') as file:
 
         text = soup.body.get_text(' ', strip=True)
 
-        with open("URL-"+str(index)+"-Words.txt", "w") as file:
+        with open("URL-"+str(index)+"-Words.txt", "w", encoding='utf-8') as file:
             
             file.write(str(text.split()))
 

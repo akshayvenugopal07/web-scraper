@@ -11,7 +11,14 @@ urls = [
     "https://qbdgroup.com/en/upcoming-events/",
     "https://qbdgroup.com/en/about-qbd/",
     "https://qbdgroup.com/en/privacy-policy/",
-    "https://qbdgroup.com/en/sitemap/"
+    "https://qbdgroup.com/en/sitemap/",
+    "https://getsimpl.com/",
+    "https://www.zeptonow.com/",
+    "https://www.zomato.com/",
+    "https://www.swiggy.com/",
+    "https://www.uber.com/in/en/"
+    "https://news.google.com/home?hl=en-IN&gl=IN&ceid=IN:en",
+    "https://bangaloremirror.indiatimes.com/bangalore/others/centre-refuses-to-grant-metro-status-to-bengaluru/articleshow/112327158.cms"
 ]
 
 with open('word-count.csv', 'w', newline='') as file:
